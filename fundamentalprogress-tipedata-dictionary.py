@@ -16,7 +16,10 @@ data_dari_server_gojek = {
     ]
 }
 print(data_dari_server_gojek)
-print(f"Driver di daerah itu {data_dari_server_gojek['driver_list']}")
+print(f"\nDriver di daerah itu {data_dari_server_gojek['driver_list']}")
 print(f"Driver # 1 {data_dari_server_gojek['driver_list'][0]}")
 print(f"Driver # 1 {data_dari_server_gojek['driver_list'][2]}")
-print(f"Driver terdekat berjarak {data_dari_server_gojek['driver_list'][0]['jarak']} meter")
+print(f"\nDriver terdekat berjarak {data_dari_server_gojek['driver_list'][0]['jarak']} meter")
+print(f"dengan nama {data_dari_server_gojek['driver_list'][0]['nama']}")
+
+
