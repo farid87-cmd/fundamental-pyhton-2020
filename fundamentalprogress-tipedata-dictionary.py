@@ -19,7 +19,6 @@ print(data_dari_server_gojek)
 print(f"\nDriver di daerah itu {data_dari_server_gojek['driver_list']}")
 print(f"Driver # 1 {data_dari_server_gojek['driver_list'][0]}")
 print(f"Driver # 1 {data_dari_server_gojek['driver_list'][2]}")
-print(f"\nDriver terdekat berjarak {data_dari_server_gojek['driver_list'][0]['jarak']} meter")
-print(f"dengan nama {data_dari_server_gojek['driver_list'][0]['nama']}")
-
-
+print(f"\nDriver terdekat berjarak {data_dari_server_gojek['driver_list'][0]} meter")
+#print(f"\nDriver terdekat berjarak {data_dari_server_gojek['driver_list'][0]} meter", end="")
+#print(f"dengan nama {data_dari_server_gojek['driver_list'][0]['nama']}")
